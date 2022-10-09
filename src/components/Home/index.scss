@@ -1,0 +1,64 @@
+* {
+    font-family: 'Coolvetica';
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+.home-page {
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+        
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    h2 {
+        color: #8D8D8D;
+        margin-top: 20px;
+        font-weight: 400;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 2s backwards;
+    }
+
+    .flat-button {
+        color: #ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        font-weight: bolder;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #ffd700;
+            color: #333;
+            font-weight: bolder;
+        }
+    }
+
+    .logoR {
+        position: absolute;
+        left: 60%;
+        top: 60%;
+        transform: translateY(-50%);
+        width: 50%;
+        max-height: 90%;
+    }
+}
