@@ -3,9 +3,12 @@ import './index.scss';
 import LogoS from '../../static/images/logo.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelope, faHome, faUser} from '@fortawesome/free-solid-svg-icons'
-import { faDiscord, faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faGithub, faInstagram, faLinkedinIn, faSlack, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { Twirl as Hamburger } from 'hamburger-react';
+import { useState } from 'react';
 
 const sideBar = () => (
+
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             {/* <img src={LogoS} alt="logo" /> */}
@@ -56,6 +59,18 @@ const sideBar = () => (
             </li>
 
         </ul>
+
+        <div className='menu-toggle'>
+            <Hamburger 
+                size={20} 
+                duration={0.6} 
+                distance="md" 
+                color='#ffd700'
+                rounded
+
+            />
+        </div>
+
     </div>
 )
 

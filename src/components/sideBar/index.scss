@@ -117,4 +117,67 @@
             }
         }
     }
+
+    .menu-toggle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav-bar {
+        // display: none;
+        height: 0px;
+        width: 100%;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        padding: 0;
+        margin: 0;
+        min-height: 60px;
+    
+        .logo {
+            font-size: 18px;
+        }
+
+        nav {
+            opacity: 0;
+            display: none;
+
+            a{
+                display: none;
+            }
+        }
+
+        ul {
+            display: none;
+        }
+
+        .menu-toggle {
+            display: flex;
+            position: relative;
+            top: -55px;
+            left: -10px;
+            right: auto;
+            margin: 2px;
+            padding: 2px;
+            flex-direction: row;
+            align-content: center;
+            justify-content: flex-end;
+            align-items: center;            
+        }
+        
+        .menu-toggle:active nav {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            opacity: 1;
+
+    }
+    
+    }
 }

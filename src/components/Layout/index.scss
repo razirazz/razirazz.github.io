@@ -19,3 +19,30 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
+
+@media only screen and (max-width: 600px) {
+    .page {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        will-change: contents;
+        height: 100%;
+        width: 100%;
+        max-width: 550px;
+        // min-height: 566px;
+        position: absolute;
+        opacity: 0;
+        top: 5%;
+        margin: auto;
+        z-index: 1;
+        transform-style: preserve-3d;
+        animation: fadeIn 1s forwards;
+        animation-delay: 1s;
+        // overflow: hidden;
+    }
+}
