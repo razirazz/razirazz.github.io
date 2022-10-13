@@ -11,7 +11,7 @@
         top: 55%;
         transform: translateY(-50%);
         width: 40%;
-        max-height: 90%;
+        max-height: 100vh;
     }
     h1 {
         color: #fff;
@@ -65,7 +65,7 @@
         top: 55%;
         transform: translateY(-50%);
         width: 100%;
-        max-height: 90%;
+        max-height: auto;
         animation: fadeIn 1s 2s backwards;
 
         .timeline {
@@ -132,19 +132,20 @@
     }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
     
     .about-page {
         .text-zone {
-            position: absolute;
-            // padding: 20px;
+            position: relative;
+            padding-top: 20px;
             left: 10%;
-            top: 55%;
+            top: 50%;
             word-wrap: break-word;
-            transform: translateY(-50%);
+            transform: translateY(-30%);
             width: 80%;
-            // max-height: 1000vh;
+            // height: 1000vh;
         }
+
         h1 {
             color: #fff;
             font-size: 26px;
@@ -152,6 +153,17 @@
             // font-family: 'Coolvetica';
             font-weight: 200;
         }
+
+        h1::before {
+            content: "Hola! This is meh! :)";
+            font-family: "La Belle Aurore";
+            opacity: 0.5;
+            color: #FFD700;
+            position: absolute;
+            font-size: 12px;
+            top: -10px;
+        }
+
         p {
             color: #8D8D8D;
             font-size: 14px;
@@ -198,12 +210,12 @@
 
         .education {
             // display: none;
-            position: absolute;
+            position: relative;
             left: 10%;
-            top: 95%;
-            transform: translateY(-5%);
-            width: 80%;
-            max-height: 90%;
+            top: 10%;
+            transform: translateY(10%);
+            width: 100%;
+            // max-height: auto;
             animation: fadeIn 1s 2s backwards;
     
             .timeline {
@@ -244,11 +256,14 @@
                   position: absolute;
                   top: 70%;
                   left: 75%;
+                //   word-wrap: break-word;
                   transform: translateY(-50%);
-                  width: 8vh;
+                  width: 300px;
                   height: 100%;
                   border-radius: 5px;
                   text-align: start;
+                  word-break: keep-all;
+                  padding-bottom: 20px;
     
                   h4 {
                     color: #fff;
@@ -265,6 +280,7 @@
                   p  {
                       color: #8D8D8D;
                       font-size: 15px;
+                      padding-bottom: 15%;
                   }
               }
         }

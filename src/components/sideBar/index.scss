@@ -123,13 +123,12 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     .nav-bar {
         // display: none;
         height: 0px;
-        width: 100%;
-        
+        width: 100%;        
         position: absolute;
         top: 0;
         left: 0;
@@ -164,9 +163,8 @@
             margin: 2px;
             padding: 2px;
             flex-direction: row;
-            align-content: center;
             justify-content: flex-end;
-            align-items: center;            
+            align-items: center;           
         }
         
         .menu-toggle:active nav {

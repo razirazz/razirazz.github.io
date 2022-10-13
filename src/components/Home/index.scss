@@ -63,10 +63,8 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .home-page {
-
-        height: auto;
 
         .text-zone {
             position: absolute;
@@ -74,6 +72,7 @@
             top: 55%;
             transform: translateY(-50%);
             width: 80%;
+            word-wrap: break-word;
             // max-height: 90%;
         }
 
@@ -81,8 +80,32 @@
             color: #fff;
             font-size: 26px;
             margin: 0;
-            font-weight: 400;
+            font-weight: 200;
+            word-wrap: break-word;
         }
+
+        h1::before {
+            content: "Touch these letters! ;)";
+            // opacity: .5;
+            font-size: 12px;
+            font-family: "La Belle Aurore";
+            position: absolute;
+            top: -10%;
+            color: #ffd700;
+        }
+
+        h1::after {
+            content: "Thank you for Visiting :3";
+            // opacity: .5;
+            font-size: 12px;
+            font-family: "La Belle Aurore";
+            position: absolute;
+            top: 100%;
+            color: #ffd700;
+            right: 5%;
+            padding-top: 50px;
+        }
+
 
         h2 {
             color: #8D8D8D;
@@ -91,6 +114,7 @@
             font-family: sans-serif;
             letter-spacing: 3px;
             font-size: 15px;
+            word-wrap: break-word;
             animation: fadeIn 1s 2s backwards;
         }
 

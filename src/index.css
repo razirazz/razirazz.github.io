@@ -10,6 +10,23 @@ body {
   background: #022C43;
   overflow: hidden;
   display: block;
+  /* height: 100vh; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 800px) {
+
+  body {
+    margin: 0;
+    font: 200 11px/1.4 'Helvetica Neue', sans-serif;
+    color: #444;
+    background: #022C43;
+    overflow: scroll;
+    display: block;
+    /* height: auto; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
 }
