@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/razirazz.me/static/css/main.d8c9d387.css",
+    "main.js": "/razirazz.me/static/js/main.566a7298.js",
+    "static/js/787.1ed0c42c.chunk.js": "/razirazz.me/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CoolveticaRg.ttf": "/razirazz.me/static/media/CoolveticaRg.42f59941755a61fca2d0.ttf",
+    "static/media/helveticaneue.ttf": "/razirazz.me/static/media/helveticaneue.9dbbc9db793f1cc4fc13.ttf",
+    "static/media/la-belle-aurore.ttf": "/razirazz.me/static/media/la-belle-aurore.6cb99b09fb1d18344c2a.ttf",
+    "static/media/logo.png": "/razirazz.me/static/media/logo.ad11ed25b41c07a5f1a7.png",
+    "index.html": "/razirazz.me/index.html",
+    "main.d8c9d387.css.map": "/razirazz.me/static/css/main.d8c9d387.css.map",
+    "main.566a7298.js.map": "/razirazz.me/static/js/main.566a7298.js.map",
+    "787.1ed0c42c.chunk.js.map": "/razirazz.me/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8c9d387.css",
+    "static/js/main.566a7298.js"
+  ]
+}
